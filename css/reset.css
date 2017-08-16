@@ -1,0 +1,222 @@
+body, html {
+    font-family: "Microsoft Yahei", tahoma, Arial, sans-serif;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #FAFAFA;
+    -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: #999999;
+    -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 0px;
+    background-color: #FAFAFA;
+    -webkit-border-radius: 2px;
+}
+
+.wrap {
+    overflow: hidden;
+    width: 100%;
+    min-width: 1024px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block
+}
+
+img {
+    border: 0
+}
+
+figure {
+    margin: 1em 40px
+}
+
+.none, [hidden], template {
+    display: none
+}
+
+a {
+    cursor: pointer;
+    background-color: transparent
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+b, strong, optgroup {
+    font-weight: 700
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+h2, h3, h4, h5, h6 {
+    margin: .5em 0;
+    padding: .5em 0;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.54em
+}
+
+sub {
+    bottom: -.19em
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code, pre {
+    font-family: "微软雅黑", arial;
+    font-size: 1em
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    border: 0;
+}
+
+button, select {
+    text-transform: none
+}
+
+input {
+    line-height: normal
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td, th {
+    padding: 0
+}
+
+/*Reset CSS ends here */
+
+/*clearfix CSS starts here */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+* html .clearfix {
+    height: 1%
+}
+
+.clearfix {
+    display: block
+}
+
+/*clearfix CSS Ends here */
+
+/* link underlines tend to make hypertext less readable,
+   because underlines obscure the shapes of the lower halves of words */
+:link, :visited {
+    text-decoration: none
+}
+
+/* no list-markers by default, since lists are used more often for semantics */
+ul, ol {
+    list-style: none
+}
+
+/* avoid browser default inconsistent heading font-sizes */
+/* and pre/code too */
+h1, h2, h3, h4, h5, h6, pre, code {
+    font-size: 1em;
+}
+
+/* remove the inconsistent (among browsers) default ul,ol padding or margin  */
+/* the default spacing on headings does not match nor align with 
+   normal interline spacing at all, so let's get rid of it. */
+/* zero out the spacing around pre, form, body, html, p, blockquote as well */
+/* form elements are oddly inconsistent, and not quite CSS emulatable. */
+/*  nonetheless strip their margin and padding as well */
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input {
+    margin: 0;
+    padding: 0
+}
+
+/* whoever thought blue linked image borders were a good idea? */
+a img, :link img, :visited img {
+    border: none
+}
+
+/* de-italicize address */
+address {
+    font-style: normal
+}
+
+a {
+    -webkit-transition: color .5s ease-out;
+    -moz-transition: color .5s ease-out;
+    -ms-transition: color .5s ease-out;
+    -o-transition: color .5s ease-out;
+    transition: color .5s ease-out;
+}
